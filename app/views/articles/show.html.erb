@@ -1,0 +1,10 @@
+<div class='title'>
+  <h2><%= @article.title %></h2>
+</div>
+<div class='content'>
+  <p><%= @article.content %></p>
+</div>
+<div class='links'>
+  <p><%= link_to 'Update your article', edit_article_path%></p>
+  <p><%= link_to 'Return to index', articles_path%></p>
+</div>

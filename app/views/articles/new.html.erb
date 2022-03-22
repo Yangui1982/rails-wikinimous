@@ -1,0 +1,10 @@
+<br>
+<br>
+<%= form_for(@article) do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <%= f.label :content %>
+  <%= f.text_area :content %>
+  <%= f.submit %>
+<% end %>
+<p><%= link_to 'Return to index', articles_path%></p>

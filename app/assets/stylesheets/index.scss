@@ -1,0 +1,39 @@
+.title {
+  margin: 30px;
+  border-bottom: 1px solid gray;
+}
+
+.articles {
+  margin: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color:  lightgray;
+  border-radius: 8px;
+}
+
+.add {
+  margin: 30px;
+  border-bottom: 1px solid gray;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+
+li {
+  color: #183153;
+  padding-left: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #183153;
+}
+
+.btn-primary {
+  margin: 30px;
+  background-color: lightgrey;
+  border-radius: 15px;
+}
